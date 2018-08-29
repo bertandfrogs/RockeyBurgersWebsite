@@ -1,0 +1,25 @@
+.page{
+    padding-left: 5%;
+    padding-right:5%;
+}
+.topBar{
+    background-color: darkgray;
+    padding: 0px;
+}
+.logo{
+    /* center the logo */
+}
+.topLinks{
+    padding-bottom: 2%;
+    display: flex;
+}
+.content img {
+    width: 80%;
+    /* center the image */
+}
+.content{
+    color: white;
+}
+body{
+    background-color: black;
+}
