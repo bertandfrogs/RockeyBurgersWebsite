@@ -1,25 +1,53 @@
-.page{
+.container{
     padding-left: 5%;
     padding-right:5%;
+    background-color: black;
 }
+
+body{
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .topBar{
     background-color: darkgray;
-    padding: 0px;
+    padding: 0;
 }
-.logo{
-    /* center the logo */
+
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
+
 .topLinks{
     padding-bottom: 2%;
     display: flex;
+    justify-content: space-evenly;
 }
-.content img {
-    width: 80%;
-    /* center the image */
+
+.topLinks a {
+    text-decoration: none;
+    color: black;
 }
-.content{
+
+.pageContent{
     color: white;
+    background-color: #000000;
+    margin: 0;
+    text-align: center;
 }
-body{
-    background-color: black;
+
+.pageContent img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
+
+.pageContent p{
+    margin-top: 0;
+    padding: 1%;
+}
+
