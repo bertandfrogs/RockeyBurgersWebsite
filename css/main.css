@@ -32,10 +32,17 @@ body{
     text-decoration: none;
     color: black;
 }
+.linkBox{
+    border-bottom: 3px solid darkgray;
+}
+
+.linkBox:hover{
+    border-bottom: 3px solid black;
+}
 
 .pageContent{
     color: white;
-    background-color: #000000;
+    background-color: #1F171C;
     margin: 0;
     text-align: center;
 }
