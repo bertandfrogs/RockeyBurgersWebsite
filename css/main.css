@@ -1,7 +1,7 @@
 .container{
     padding-left: 5%;
     padding-right:5%;
-    background-color: black;
+    background-color: #1F171C;
 }
 
 body{
@@ -33,18 +33,28 @@ body{
     color: black;
 }
 .linkBox{
-    border-bottom: 3px solid darkgray;
+    display: flex;
+    border-bottom: 2px solid darkgray;
+}
+.linkBox i{
+    margin: 5px 5px 5px 0;
 }
 
 .linkBox:hover{
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
 }
 
 .pageContent{
+    padding: 20px;
     color: white;
-    background-color: #1F171C;
+    background-color: black;
     margin: 0;
-    text-align: center;
+    text-align: left;
+}
+
+.pageContent h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 20px;
 }
 
 .pageContent img {
@@ -55,7 +65,8 @@ body{
 }
 
 .pageContent p{
-    margin-top: 0;
-    padding: 1%;
+    margin: 0;
+    padding: 20px;
 }
+
 
