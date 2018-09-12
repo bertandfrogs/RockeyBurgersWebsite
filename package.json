@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bertandfrogs/RockeyBurgersWebsite/issues"
   },
-  "homepage": "https://github.com/bertandfrogs/RockeyBurgersWebsite#readme"
+  "homepage": "https://github.com/bertandfrogs/RockeyBurgersWebsite#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
 }

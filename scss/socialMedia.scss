@@ -1,0 +1,18 @@
+.socialMedia {
+  a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+  }
+  i{
+    font-size: 5em;
+  }
+  .facebook{
+    color: #495A90;
+  }
+  .twitter{
+    color: #49A0EB;
+  }
+}

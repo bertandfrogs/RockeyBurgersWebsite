@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color: #1F171C;
+  font-family: "Ubuntu", sans-serif; }
+
+.container {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #1F171C; }
+
+.topBar {
+  background-color: #A9A9A9;
+  padding: 0; }
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%; }
+
+.topLinks {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly; }
+  .topLinks a {
+    text-decoration: none;
+    color: #000000; }
+
+.linkBox {
+  display: flex;
+  border-bottom: 2px solid #A9A9A9; }
+  .linkBox i {
+    margin: 5px 5px 5px 0; }
+
+.linkBox:hover {
+  border-bottom: 2px solid #000000; }
+
+.pageContent {
+  padding: 20px;
+  padding-top: 0;
+  color: #FFFFFF;
+  background-color: #000000;
+  margin: 0;
+  text-align: left;
+  height: 100%; }
+  .pageContent h1 {
+    margin: 0;
+    padding: 20px;
+    text-align: center; }
+  .pageContent img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; }
+  .pageContent p {
+    margin: 0;
+    padding: 20px; }
+
+.home {
+  text-align: center; }
+
+.socialMedia a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
+
+.socialMedia i {
+  font-size: 5em; }
+
+.socialMedia .facebook {
+  color: #495A90; }
+
+.socialMedia .twitter {
+  color: #49A0EB; }
