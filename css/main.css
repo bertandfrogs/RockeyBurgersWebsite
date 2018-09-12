@@ -1,33 +1,28 @@
-.container{
-    padding-left: 5%;
-    padding-right:5%;
-    background-color: #1F171C;
-}
-
 body{
     margin: 0;
     background-color: black;
     font-family: 'Ubuntu', sans-serif;
 }
-
+.container{
+    padding-left: 5%;
+    padding-right:5%;
+    background-color: #1F171C;
+}
 .topBar{
     background-color: darkgray;
     padding: 0;
 }
-
 .logo img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
 }
-
 .topLinks{
     padding-bottom: 2%;
     display: flex;
     justify-content: space-evenly;
 }
-
 .topLinks a {
     text-decoration: none;
     color: black;
@@ -39,11 +34,9 @@ body{
 .linkBox i{
     margin: 5px 5px 5px 0;
 }
-
 .linkBox:hover{
     border-bottom: 2px solid black;
 }
-
 .pageContent{
     padding: 20px;
     color: white;
@@ -51,22 +44,41 @@ body{
     margin: 0;
     text-align: left;
 }
-
-.pageContent h1, h2, h3, h4, h5, h6{
+.home{
+ text-align: center;
+}
+.pageContent h1{
     margin: 0;
     padding: 20px;
+    text-align: center;
 }
-
 .pageContent img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
 }
-
 .pageContent p{
     margin: 0;
     padding: 20px;
 }
+.socialMedia a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+}
+.socialMedia i{
+    font-size: 5em;
+}
+.facebook{
+    color: #495A90;
+}
+.twitter{
+    color: #49A0EB;
+}
+
+
 
 
