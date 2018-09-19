@@ -74,3 +74,19 @@ body {
 
 .socialMedia .twitter {
   color: #49A0EB; }
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px; }
+  .menuItem img {
+    width: 35%;
+    height: 8%;
+    margin: 20px; }
+
+.menuText {
+  width: 40%;
+  padding: 20px; }
+  .menuText li {
+    padding: 5px; }

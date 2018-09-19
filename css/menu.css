@@ -1,0 +1,6 @@
+.menuItem {
+  display: flex;
+  flex-direction: row; }
+  .menuItem img {
+    width: 30%;
+    height: 8%; }
