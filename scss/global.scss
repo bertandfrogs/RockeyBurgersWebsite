@@ -2,9 +2,9 @@ $containerColor: #1F171C;
 $bodyColor: #000000;
 $navColor: #A9A9A9;
 $textColor: #FFFFFF;
-$font: 'Ubuntu', sans-serif;
+$inputPadding: 5px;
 $basePadding: 20px;
+$font: 'Ubuntu', sans-serif;
+$font2: 'Ubuntu Condensed', sans-serif;
+$font3: 'Roboto', sans-serif;
 
-@import "home";
-@import "socialMedia";
-@import "menu";

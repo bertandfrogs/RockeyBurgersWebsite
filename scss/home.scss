@@ -1,3 +1,4 @@
+@import 'global';
 body{
   margin: 0;
   background-color: $containerColor;
@@ -51,6 +52,10 @@ body{
     margin: 0;
     padding: 20px;
     text-align: center;
+  }
+  h3{
+    margin: 0;
+    padding: $basePadding;
   }
   img {
     display: block;

@@ -1,14 +1,36 @@
+@import 'global';
 .socialMedia {
+  .pageContent{
+    height: 100%;
+    height: -moz-available;
+    height: -webkit-fill-available;
+  }
+}
+.socialBox{
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  .mediaLinks{
+    padding: $basePadding;
+  }
   a{
     color: white;
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    align-content:center;
+    justify-content:center;
+    align-items: center;
   }
   i{
-    font-size: 5em;
+    font-size: 15vh;
+    text-align: center;
+    width: 22%;
+    height: 55%;
   }
+
   .facebook{
     color: #495A90;
   }

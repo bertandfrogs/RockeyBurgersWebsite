@@ -1,0 +1,27 @@
+@import 'global';
+.locations{
+  .locationContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .locationTop, .locationBottom{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    padding: $basePadding;
+    justify-content: space-evenly;
+  }
+  .locationBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $basePadding;
+  }
+  p{
+    padding: 5px;
+  }
+  iframe{
+    width: 100%;
+    height: 50%;
+  }
+}
