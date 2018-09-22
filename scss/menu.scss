@@ -1,23 +1,23 @@
 @import 'global';
-.menuItem{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: $basePadding;
-  img{
-    width: 35%;
-    height: 8%;
-    margin: $basePadding;
-  }
-}
-.menuText{
-  width: 40%;
-  padding: $basePadding;
-  li{
-    padding: 3px;
-  }
-}
 .menu{
+  .menuItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: $basePadding;
+    img{
+      width: 35%;
+      height: 8%;
+      margin: $basePadding;
+    }
+  }
+  .menuText{
+    width: 40%;
+    padding: $basePadding;
+    li{
+      padding: 3px;
+    }
+  }
   .menuHead{
     font-size: 24px;
   }

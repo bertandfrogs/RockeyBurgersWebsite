@@ -1,0 +1,8 @@
+.faq .faqText {
+  width: 80%;
+  margin: auto; }
+
+.faq .pageContent {
+  height: 100%;
+  height: -moz-available;
+  height: -webkit-fill-available; }

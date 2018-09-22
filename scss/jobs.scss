@@ -1,0 +1,110 @@
+@import 'global';
+.jobs{
+  .inputForm{
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid $navColor;
+    padding: $basePadding;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formRow{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 80%;
+    .inputLabel{
+      width: 30%;
+    }
+    .bigInputLabel{
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p{
+        padding: 0;
+        width: 80%;
+      }
+    }
+  }
+  .smallMargin{
+    margin-bottom: 5px;
+
+  }
+  .inputLabel{
+    display: flex;
+    flex-direction: column;
+    .inputInfo{
+      font-size: 12px;
+    }
+  }
+  .submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: $basePadding;
+    width: 20%;
+    .subButton {
+      font-size: 12px;
+      padding: $inputPadding;
+      background-color: $navColor;
+      color: $bodyColor;
+      width:100%;
+    }
+  }
+  .inputBlock{
+    padding: $inputPadding;
+    font-size: 14px;
+    width: 50%;
+  }
+  .bigInput{
+    width: 80%;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .availability{
+    .formRow, .smallMargin{
+      width: 100%;
+      justify-content: left;
+    }
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .pageContent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (max-width: 800px) {
+    .inputForm {
+      width: auto;
+    }
+    .formRow {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      .inputLabel {
+        padding-bottom: $inputPadding;
+      }
+      .inputBlock {
+        padding: 5px;
+        font-size: 14px;
+        width: 97%;
+      }
+      .bigInput{
+        padding: 5px;
+        font-size: 14px;
+        width: 97%;
+      }
+      .bigInputLabel{
+        width: 97%;
+        margin: 0;
+      }
+    }
+  }
+}

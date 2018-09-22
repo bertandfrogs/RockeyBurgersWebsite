@@ -62,20 +62,20 @@ body {
 .home {
   text-align: center; }
 
-.menuItem {
+.menu .menuItem {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 20px; }
-  .menuItem img {
+  .menu .menuItem img {
     width: 35%;
     height: 8%;
     margin: 20px; }
 
-.menuText {
+.menu .menuText {
   width: 40%;
   padding: 20px; }
-  .menuText li {
+  .menu .menuText li {
     padding: 3px; }
 
 .menu .menuHead {
@@ -140,7 +140,10 @@ body {
   width: 100%;
   height: 50%; }
 
-.subForm {
+.subscribe h3 {
+  text-align: center; }
+
+.subscribe .subForm {
   margin: 0 auto;
   width: 60%;
   border: 1px solid #A9A9A9;
@@ -149,34 +152,34 @@ body {
   flex-direction: column;
   align-items: center; }
 
-.subRow {
+.subscribe .subRow {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
   align-items: center;
   width: 80%; }
-  .subRow span {
-    width: fit-content; }
+  .subscribe .subRow span {
+    width: 30%; }
 
-.submit {
+.subscribe .submit {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 20px;
   width: 20%; }
-  .submit .subButton {
+  .subscribe .submit .subButton {
     font-size: 12px;
     padding: 5px;
     background-color: #A9A9A9;
     color: #000000;
     width: 100%; }
 
-.subInput {
+.subscribe .subInput {
   padding: 5px;
   font-size: 14px;
   width: 50%; }
 
-.subscribe .pageContent {
+.subscribe .subscribe .pageContent {
   height: 100%;
   height: -moz-available;
   height: -webkit-fill-available;
@@ -184,20 +187,119 @@ body {
   flex-direction: column;
   align-items: center; }
 
-@media screen and (max-width: 600px) {
-  .subForm {
+@media screen and (max-width: 800px) {
+  .subscribe .subForm {
     width: auto; }
-  .subRow {
+  .subscribe .subRow {
     flex-direction: column;
     align-items: flex-start;
     width: 100%; }
-    .subRow span {
+    .subscribe .subRow span {
       padding-bottom: 5px; }
-    .subRow .subInput {
+    .subscribe .subRow .subInput {
       padding: 5px;
       font-size: 14px;
-      width: auto; } }
+      width: 97%; } }
 
-.faq .pageContent {
+.faq .faqText {
   width: 80%;
   margin: auto; }
+
+.faq .pageContent {
+  height: 100%;
+  height: -moz-available;
+  height: -webkit-fill-available; }
+
+.jobs .inputForm {
+  margin: 0 auto;
+  width: 60%;
+  border: 1px solid #A9A9A9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.jobs .formRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+  width: 80%; }
+  .jobs .formRow .inputLabel {
+    width: 30%; }
+  .jobs .formRow .bigInputLabel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .jobs .formRow .bigInputLabel p {
+      padding: 0;
+      width: 80%; }
+
+.jobs .smallMargin {
+  margin-bottom: 5px; }
+
+.jobs .inputLabel {
+  display: flex;
+  flex-direction: column; }
+  .jobs .inputLabel .inputInfo {
+    font-size: 12px; }
+
+.jobs .submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  width: 20%; }
+  .jobs .submit .subButton {
+    font-size: 12px;
+    padding: 5px;
+    background-color: #A9A9A9;
+    color: #000000;
+    width: 100%; }
+
+.jobs .inputBlock {
+  padding: 5px;
+  font-size: 14px;
+  width: 50%; }
+
+.jobs .bigInput {
+  width: 80%;
+  padding: 5px;
+  font-size: 14px; }
+
+.jobs .availability {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start; }
+  .jobs .availability .formRow, .jobs .availability .smallMargin {
+    width: 100%;
+    justify-content: left; }
+
+.jobs .pageContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+@media screen and (max-width: 800px) {
+  .jobs .inputForm {
+    width: auto; }
+  .jobs .formRow {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; }
+    .jobs .formRow .inputLabel {
+      padding-bottom: 5px; }
+    .jobs .formRow .inputBlock {
+      padding: 5px;
+      font-size: 14px;
+      width: 97%; }
+    .jobs .formRow .bigInput {
+      padding: 5px;
+      font-size: 14px;
+      width: 97%; }
+    .jobs .formRow .bigInputLabel {
+      width: 97%;
+      margin: 0; } }
