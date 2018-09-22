@@ -21,4 +21,23 @@
   .menuHead{
     font-size: 24px;
   }
+  @media screen and (max-width: 800px) {
+    .menuItem{
+      flex-direction: column;
+      align-content: center;
+      padding: $basePadding;
+      img{
+        width: 80%;
+        height: 8%;
+        margin: $basePadding;
+      }
+    }
+    .menuText{
+      width: 95%;
+      padding: $basePadding;
+      li{
+        padding: 3px;
+      }
+    }
+  }
 }

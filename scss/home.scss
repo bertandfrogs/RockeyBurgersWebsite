@@ -71,3 +71,20 @@ body{
 .home{
   text-align: center;
 }
+@media screen and (max-width: 800px) {
+  .topLinks{
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-bottom:0;
+    i{
+      padding: 5px;
+    }
+  }
+  .home{
+    .pageContent{
+      height: 100%;
+      height: -moz-available;
+      height: -webkit-fill-available;
+    }
+  }
+}

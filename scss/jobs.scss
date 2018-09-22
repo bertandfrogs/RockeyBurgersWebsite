@@ -74,6 +74,10 @@
     flex-direction: column;
     align-content: flex-start;
   }
+  .check{
+    display: flex;
+    flex-direction: row;
+  }
   .pageContent{
     height: 100%;
     display: flex;
@@ -83,6 +87,9 @@
   @media screen and (max-width: 800px) {
     .inputForm {
       width: auto;
+    }
+    .check{
+      flex-direction: row;
     }
     .formRow {
       flex-direction: column;
@@ -103,8 +110,12 @@
       }
       .bigInputLabel{
         width: 97%;
-        margin: 0;
+        align-items: flex-start;
       }
+    }
+    .availability{
+      width: 97%;
+      align-items: flex-start;
     }
   }
 }

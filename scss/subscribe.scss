@@ -41,23 +41,22 @@
     font-size: 14px;
     width: 50%;
   }
-  .subscribe {
-    .pageContent {
-      height: 100%;
-      height: -moz-available;
-      height: -webkit-fill-available;
+  .pageContent {
+    height: 100%;
+    height: -moz-available;
+    height: -webkit-fill-available;
 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .submit {
 
   }
   @media screen and (max-width: 800px) {
     .subForm {
-      width: auto;
+      margin: 0;
+      width: 85%;
     }
     .subRow {
       flex-direction: column;

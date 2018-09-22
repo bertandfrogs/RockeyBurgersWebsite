@@ -62,6 +62,18 @@ body {
 .home {
   text-align: center; }
 
+@media screen and (max-width: 800px) {
+  .topLinks {
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-bottom: 0; }
+    .topLinks i {
+      padding: 5px; }
+  .home .pageContent {
+    height: 100%;
+    height: -moz-available;
+    height: -webkit-fill-available; } }
+
 .menu .menuItem {
   display: flex;
   flex-direction: row;
@@ -80,6 +92,21 @@ body {
 
 .menu .menuHead {
   font-size: 24px; }
+
+@media screen and (max-width: 800px) {
+  .menu .menuItem {
+    flex-direction: column;
+    align-content: center;
+    padding: 20px; }
+    .menu .menuItem img {
+      width: 80%;
+      height: 8%;
+      margin: 20px; }
+  .menu .menuText {
+    width: 95%;
+    padding: 20px; }
+    .menu .menuText li {
+      padding: 3px; } }
 
 .socialMedia .pageContent {
   height: 100%;
@@ -179,7 +206,7 @@ body {
   font-size: 14px;
   width: 50%; }
 
-.subscribe .subscribe .pageContent {
+.subscribe .pageContent {
   height: 100%;
   height: -moz-available;
   height: -webkit-fill-available;
@@ -189,7 +216,8 @@ body {
 
 @media screen and (max-width: 800px) {
   .subscribe .subForm {
-    width: auto; }
+    margin: 0;
+    width: 85%; }
   .subscribe .subRow {
     flex-direction: column;
     align-items: flex-start;
@@ -277,6 +305,10 @@ body {
     width: 100%;
     justify-content: left; }
 
+.jobs .check {
+  display: flex;
+  flex-direction: row; }
+
 .jobs .pageContent {
   height: 100%;
   display: flex;
@@ -286,6 +318,8 @@ body {
 @media screen and (max-width: 800px) {
   .jobs .inputForm {
     width: auto; }
+  .jobs .check {
+    flex-direction: row; }
   .jobs .formRow {
     flex-direction: column;
     align-items: flex-start;
@@ -302,4 +336,7 @@ body {
       width: 97%; }
     .jobs .formRow .bigInputLabel {
       width: 97%;
-      margin: 0; } }
+      align-items: flex-start; }
+  .jobs .availability {
+    width: 97%;
+    align-items: flex-start; } }
